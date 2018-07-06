@@ -1,3 +1,5 @@
+/*-----------------GENERAL STYLES---------------*/
+
 @import url('https://fonts.googleapis.com/css?family=Anton: 100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Oswald: 100,200,300,400,500,600,700');
 h1,
@@ -14,25 +16,7 @@ textarea {
     font-family: 'Oswald', sans-serif;
 }
 
-.TDE {
-    background-image: url("../Images/TDE.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 200px;
-    
-}
-    
-
-    
-    
-    
-
-/*-----------------HEADER---------------*/
-
-header {
-    background: black;
-}
+/*-----------------ICONS---------------*/
 
 .list-inline-item a i:hover {
     color: black;
@@ -55,10 +39,6 @@ header {
 }
 
  
-.mobile {
-    padding-top: 30px;
-}
-
 .mobile-menu-icon {
     width: 32px;
     padding: 0;
@@ -68,6 +48,68 @@ header {
     color: #fafafa;
     margin: 0px;
 }
+
+    
+    
+/*-----------------HEADER---------------*/
+
+header {
+    background: black;
+}
+
+.TDE {
+    background-image: url("../Images/TDE.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+    
+}
+
+.menuItem {
+   list-style: none;
+   text-align: center;
+   margin-top: relative;
+   height: 65px;
+   padding: 0%;
+
+
+}
+
+.menuItem a {
+    font-family: 'Anton', sans-serif;
+    font-weight: 100;
+    padding: 0;
+    color: #fafafa;
+    padding-top: 12px;
+    width: 100%;
+    height: 65px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+
+}
+
+.menuItem span {
+    font-size: 30px;
+    letter-spacing: 4px;
+
+}
+
+
+.menuItem a:hover {
+    color: black;
+}
+
+.hvr-sweep-to-bottom:before {
+
+    background: rgba(187, 14, 11, 1);
+    height: 65px;
+
+}
+
+
+/*-----------------MOBILE---------------*/
 
 .mobile-menu  {
     padding: 0;
@@ -92,7 +134,6 @@ header {
 }
 
 
-
 @media (max-width: 767px) {
     .menu {
         display: none;
@@ -109,50 +150,7 @@ header {
 
 
 
-.menuItem {
-
-    list-style: none;
-    text-align: center;
-    margin-top: relative;
-    height: 65px;
-    padding: 0%;
-
-
-}
-
-.menuItem a {
-    font-family: 'Anton', sans-serif;
-    font-weight: 100;
-    padding: 0;
-    color: #fafafa;
-    padding-top: 12px;
-    width: 100%;
-    height: 65px;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: block;
-
-
-
-}
-
-.menuItem span {
-    font-size: 30px;
-    letter-spacing: 4px;
-
-}
-
-
-.menuItem a:hover {
-    color: black;
-}
-
-.hvr-sweep-to-bottom:before {
-
-    background: rgba(187, 14, 11, 1);
-    height: 65px;
-
-}
+/*-----------------SECTION---------------*/
 
 
 video {
@@ -183,10 +181,14 @@ video {
     color: #fafafa;
 }
 
-
+/*-----------------FOOTER---------------*/
 
 footer {
     background-color: black;
+}
+
+.mobile-footer {
+    padding-top: 30px;
 }
 
 .footer-copyright {
