@@ -25,17 +25,21 @@
                         </ul>
                     </div>
 
-
-                    <div class="d-block d-sm-none dropdown show d-flex justify-content-end list-inline-item">
-                        <a href="#" id="dropdownMenuLinkMobile" data-toggle="dropdown"><i class="fa fa-align-justify"></i></a>
-                        <div class="dropdown-menu col-12 p-0" aria-labelledby="dropdownMenuLinkMobile">
-                            <a href="#" class="dropdown-item">Home</a>
-                            <a href="#" class="dropdown-item">Discography</a>
-                            <a href="#" class="dropdown-item">Videos</a>
-                            <a href="#" class="dropdown-item">Photos</a>
-                            <a href="#" class="dropdown-item">Bookings</a>
-                        </div>
+                    <nav class="navbar d-block d-sm-none d-flex justify-content-end">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false">
+                            <i class="mobile-menu-icon fa fa-bars"></i>
+                        </button>
+                    </nav>
+                    <div class="collapse" id="mobile-menu">
+                        <nav class="d-block d-sm-none mobile-menu col-12">
+                            <a href="#" class="mobile-menu-item">Home</a>
+                            <a href="#" class="mobile-menu-item">Discography</a>
+                            <a href="#" class="mobile-menu-item">Videos</a>
+                            <a href="#" class="mobile-menu-item">Photos</a>
+                            <a href="#" class="mobile-menu-item">Bookins</a>
+                        </nav>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -112,5 +116,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+</body>
 
 </html>
