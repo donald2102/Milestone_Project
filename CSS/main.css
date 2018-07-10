@@ -16,6 +16,8 @@ textarea {
     font-family: 'Oswald', sans-serif;
 }
 
+
+
 /*-----------------ICONS---------------*/
 
 .list-inline-item a i:hover {
@@ -134,7 +136,7 @@ header {
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 576px) {
     .menu {
         display: none;
 
@@ -142,7 +144,7 @@ header {
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 576px) {
     .footer-copyright  {
         margin-bottom: 5px;
     }
@@ -152,6 +154,9 @@ header {
 
 /*-----------------SECTION---------------*/
 
+section {
+    height: 100%;
+}
 
 video {
     object-fit: inherit;
@@ -179,6 +184,17 @@ video {
 .description {
     font-size: 20px;
     color: #fafafa;
+}
+
+.photo-section {
+    background-color: black;
+    
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    box-shadow: 0px 0px 28px 2px rgba(200, 24, 16, 1);
 }
 
 /*-----------------FOOTER---------------*/
