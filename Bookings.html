@@ -53,10 +53,10 @@
                 <a class="hvr-sweep-to-bottom" href="index.html"><span>Home</span></a>
             </li>
             <li class="col-sm col-md menuItem">
-                <a class="hvr-sweep-to-bottom" href="Discography.html"><span>Discography</span></a>
+                <a class="hvr-sweep-to-bottom" href="#"><span>Discography</span></a>
             </li>
             <li class="col-sm col-md menuItem">
-                <a class="hvr-sweep-to-bottom" href="Music.html"><span>Music</span></a>
+                <a class="hvr-sweep-to-bottom" href="#"><span>Music</span></a>
             </li>
             <li class="col-sm col-md menuItem">
                 <a class="hvr-sweep-to-bottom" href="Photos.html"><span>Photos</span></a>
@@ -67,25 +67,18 @@
         </div>
     </header>
 
+
     <section class="container-fluid">
         <div class="row">
-            <div class="col-12 col-md-6 p-0">
-                <video width="100%" height="100%" poster="Images/Performing.jpg" controls>
-                        <source src="Videos/BlackHippy.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="col-12 col-md-6 section-column">
-                <h1 class="section-heading">Black Hippy</h1>
-                <span class="description">
-                    <p>Black Hippy are a Hip-Hop/Rap collective consisting of:</p>
-                    <p>Kendrick Lamar</p>
-                    <p>Schoolboy Q</p>
-                    <p>Ab-Soul</p>
-                    <p>Jay Rock</p>
-                    <p>Signed to Los Angeles based music label - Top Dawg Entertainment. Although a collective, they are popularly known for their individual solo efforts. However, we still love it when they make songs as a group!</p>
-                    <p>Get tickets for their latest "Championship Tour" <a class="tourLink" href="https://www.ticketmaster.com/The-Championship-Tour-tickets/artist/2457423">HERE!</a></p>
-                    <p><a class="bookingsLink" href="Bookings.html">Click here</a> for bookings and enquiries</p>
-                </span>
+            <div class="col-12 col-md-8 center-form mx-auto">
+                <form class="text-center">
+                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Full Name" required/>
+                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                    <input type="date" name="date" class="form-control" id="date" placeholder="Date" required/>
+                    <input type="time" name="time" class="formal-control" id="time" placeholder="Time" required/>
+                    <textarea rows="4" name="furtherDetails" class="form-control" id="furtherDetails" placeholder="Please enter any further details" required></textarea>
+                    <button type="submit" class="btn btn-secondary">Submit</button>
+                </form>
             </div>
         </div>
     </section>
