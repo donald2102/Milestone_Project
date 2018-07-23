@@ -1,7 +1,8 @@
 /*-----------------GENERAL STYLES---------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Anton: 100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Anton: 100,200,300,400,500,600,700'); 
 @import url('https://fonts.googleapis.com/css?family=Oswald: 100,200,300,400,500,600,700');
+
 h1,
 h2,
 h3,
@@ -9,9 +10,13 @@ h4,
 h5,
 h6 {
     font-family: 'Anton', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 p,
+button,
+input,
 textarea {
     font-family: 'Oswald', sans-serif;
 }
@@ -19,10 +24,7 @@ textarea {
 body {
     width: 100%;
     height: 100%;
-    
-
 }
-
 
 
 
@@ -34,11 +36,8 @@ body {
     padding: 0;
     margin: 0;
     width: 100%;
-
-    
-    
-
 }
+
 
 .social-links li {
     display: inline-block;
@@ -50,26 +49,23 @@ body {
     line-height: 7px;
     text-align: center;
     margin: 10px;
-    
-
 }
+
 
 .social-links i {
     color: #fafafa;
-    
+    padding:10px;
 }
+
 
 .social-links i:hover {
-    padding: 10px;
-    color: black;
+    color: #000;
     background-color: rgba(187, 14, 11, 1);
     border-radius: 10px;
+    padding: 10px;
     list-style: none;
-    transition: all 0.30s ease-in-out;
-    
-
+    transition: all .5s ease-in-out;
 }
-
 
 
 .mobile-menu-icon {
@@ -134,7 +130,7 @@ header {
 
 
 .menuItem a:hover {
-    color: black;
+    color: #000;
 }
 
 .hvr-sweep-to-bottom:before {
@@ -150,7 +146,6 @@ header {
 .mobile-menu {
     padding: 0;
     width: 100%;
-    background: rgba(255, 255, 255, 0.8);
     text-align: center;
     transition: all 0.3s ease-in-out;
 
@@ -161,7 +156,8 @@ header {
     font-weight: 100;
     text-decoration: none;
     text-align: center;
-    color: black;
+    letter-spacing: 4px;
+    color: #fafafa;
     background-color: rgba(187, 14, 11, 1);
     text-transform: uppercase;
     display: block;
@@ -173,10 +169,9 @@ header {
 @media (max-width: 576px) {
     .menu {
         display: none;
-
     }
-
 }
+
 
 @media (max-width: 576px) {
     .footer-copyright {
@@ -188,7 +183,7 @@ header {
 
 /*-----------------SECTION---------------*/
 
-
+/*-----HOME*/
 
 video {
     object-fit: inherit;
@@ -218,15 +213,24 @@ video {
     color: #fafafa;
 }
 
-.photo-section {
-    background-color: black;
 
+/*-----PHOTOS*/
+
+.photo-section {
+    background-color: #000;
 }
 
 .img-thumbnail {
-
     box-shadow: 0px 0px 28px 2px rgba(200, 24, 16, 1);
 }
+
+
+/*-----BOOKINGS*/
+
+.form-control {
+    border: 2px solid rgba(187, 14, 11, 1);
+}
+
 
 .tour-column {
     background-color: black;
@@ -234,20 +238,59 @@ video {
     box-shadow: 0px 0px 28px 2px rgba(200, 24, 16, 1);
 }
 
+.tour-column a {
+    font-family: 'Oswald', sans-serif;
+    
+    
+}
+
 .tour-heading {
     text-align: center;
     padding-top: 10px;
 }
 
-.book-column {
-    background-color: black;
+.tour-text {
+    font-size: 25px;
+}
+
+.tour-button {
+    background-color:rgba(187, 14, 11, 1); 
+    border: 2px solid #fafafa;
+    color: #fafafa;
+}
+
+.tour-button:hover {
+    background-color: #fafafa;
+    color: #000;
+    border: 2px solid rgba(187, 14, 11, 1);
+    transition: all .5s ease-in-out;
+}
+
+.booking-column {
+    background-color: #000;
     color:#fafafa;
     box-shadow: 0px 0px 28px 2px rgba(200, 24, 16, 1);
+    
 }
 
 .booking-heading {
     text-align: center;
     padding-top: 10px;
+}
+
+.booking-button {
+    width: 100%;
+    background-color:rgba(187, 14, 11, 1); 
+    border: 2px solid #fafafa;
+    color: #fafafa;
+    
+}
+
+.booking-button:hover {
+    background-color: #fafafa;
+    color: #000;
+    border: 2px solid rgb(187, 14, 11, 1);
+    transition: all .5s ease-in-out;
 }
 
 /*-----------------FOOTER---------------*/
