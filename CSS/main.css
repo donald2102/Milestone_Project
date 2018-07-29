@@ -213,6 +213,42 @@ video {
     color: #fafafa;
 }
 
+/*-----MUSIC*/
+
+.music-section {
+    background-color: #000;
+    
+}
+
+audio {
+    height: 200px;
+    width: 50%;
+    padding-bottom:50px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    
+    
+    
+}
+
+.audio-title {
+    color: #fafafa;
+padding-top: 15px;
+    text-align: center;
+     
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.bg-red {
+    background-color: rgba(187, 14, 11, 1);
+}
+
+.tab-pane {
+    box-shadow: 0px 0px 28px 2px rgba(200, 24, 16, 1);
+}
 
 /*-----PHOTOS*/
 
@@ -240,7 +276,6 @@ video {
 
 .tour-column a {
     font-family: 'Oswald', sans-serif;
-    
     
 }
 
@@ -289,7 +324,7 @@ video {
 .booking-button:hover {
     background-color: #fafafa;
     color: #000;
-    border: 2px solid rgb(187, 14, 11, 1);
+    border: 2px solid rgba(187, 14, 11, 1);
     transition: all .5s ease-in-out;
 }
 
