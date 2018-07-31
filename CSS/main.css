@@ -1,7 +1,7 @@
 /*-----------------GENERAL STYLES---------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Anton: 100,200,300,400,500,600,700'); 
-@import url('https://fonts.googleapis.com/css?family=Oswald: 100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Anton: 100,200,300,400,500,600,700|Oswald: 100,200,300,400,500,600,700'); 
+
 
 h1,
 h2,
@@ -215,40 +215,42 @@ video {
 
 /*-----MUSIC*/
 
-.music-section {
+section {
     background-color: #000;
     
+
 }
 
-audio {
-    height: 200px;
-    width: 50%;
-    padding-bottom:50px;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    
-    
-    
-}
-
-.audio-title {
-    color: #fafafa;
-padding-top: 15px;
+.table {
     text-align: center;
-     
-}
-
-.bg-black {
     background-color: #000;
-}
-
-.bg-red {
-    background-color: rgba(187, 14, 11, 1);
-}
-
-.tab-pane {
+    color: #fafafa;
+    font-family: 'Oswald', sans-serif;
     box-shadow: 0px 0px 28px 2px rgba(200, 24, 16, 1);
+    
 }
+
+.table  td {
+    vertical-align: middle;
+}
+
+.table th {
+    vertical-align: middle;
+}
+
+.purchase-button {
+    background-color:rgba(187, 14, 11, 1); 
+    border: 2px solid #fafafa;
+    color: #fafafa;
+}
+
+.purchase-button:hover {
+    background-color: #fafafa;
+    color: #000;
+    border: 2px solid rgba(187, 14, 11, 1);
+    transition: all .5s ease-in-out;
+}
+
 
 /*-----PHOTOS*/
 
@@ -260,6 +262,10 @@ padding-top: 15px;
     box-shadow: 0px 0px 28px 2px rgba(200, 24, 16, 1);
 }
 
+img {
+    cursor: pointer;
+    width: 100%;
+}
 
 /*-----BOOKINGS*/
 
