@@ -1,6 +1,6 @@
 /*-----------------GENERAL STYLES---------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Anton: 100,200,300,400,500,600,700|Oswald: 100,200,300,400,500,600,700'); 
+@import url('https://fonts.googleapis.com/css?family=Anton: 100,200,300,400,500,600,700|Oswald: 100,200,300,400,500,600,700');
 
 
 h1,
@@ -38,7 +38,6 @@ body {
     width: 100%;
 }
 
-
 .social-links li {
     display: inline-block;
     width: 32px;
@@ -51,12 +50,10 @@ body {
     margin: 10px;
 }
 
-
 .social-links i {
     color: #fafafa;
-    padding:10px;
+    padding: 10px;
 }
-
 
 .social-links i:hover {
     color: #000;
@@ -66,7 +63,6 @@ body {
     list-style: none;
     transition: all .5s ease-in-out;
 }
-
 
 .mobile-menu-icon {
     width: 32px;
@@ -79,133 +75,13 @@ body {
 }
 
 
-
-/*-----------------HEADER---------------*/
-
-header {
-    background: #000;
-}
-
-.TDE {
-    background-image: url("../images/TDE.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 200px;
-
-}
-
-
-
-.menuItem {
-    list-style: none;
-    text-align: center;
-    margin-top: relative;
-    height: 70px;
-    width: 100%;
-    background-color:#000;
-    box-shadow: 0px 0px 10px 2px rgba(200, 24, 16, 1);
-
-
-}
-
-.menuItem a {
-    font-family: 'Anton', sans-serif;
-    font-weight: 100;
-    padding: 0;
-    color: #fafafa;
-    background-color: #000;
-    padding-top: 12px;
-    width: 100%;
-    height: 70px;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: block;
-
-}
-
-.menuItem span {
-    font-size: 24px;
-    letter-spacing: 4px;
-    
-}
-
-.active-menuItem a {
-    color: #000;
-    background-color: rgba(187, 14, 11, 1);
-}
-
-
-.menuItem a:hover {
-    color: #000;
-}
-
-.hvr-sweep-to-bottom:before {
-
-    background-color: rgba(187, 14, 11, 1);
-    height: 70px;
-    padding: 0;
-
-}
-
-.tour-link {
-    background-color:rgba(187, 14, 11, 1); 
-    border: 2px solid #fafafa;
-    color: #fafafa;
-}
-
-.tour-link:hover {
-    background-color: #fafafa;
-    color: #000;
-    border: 2px solid rgba(187, 14, 11, 1);
-    transition: all .5s ease-in-out;
-}
-
-.booking-link {
-    background-color:rgba(187, 14, 11, 1); 
-    border: 2px solid #fafafa;
-    color: #fafafa;
-}
-
-.booking-link:hover {
-    background-color: #fafafa;
-    color: #000;
-    border: 2px solid rgba(187, 14, 11, 1);
-    transition: all .5s ease-in-out;
-} 
-
-
-/*-----------------MOBILE---------------*/
-
-.mobile-menu {
-    padding: 0;
-    width: 100%;
-    text-align: center;
-    transition: all 0.3s ease-in-out;
-
-}
-
-.mobile-menu-item {
-    font-family: 'Anton', sans-serif;
-    font-weight: 100;
-    text-decoration: none;
-    text-align: center;
-    letter-spacing: 4px;
-    color: #fafafa;
-    background-color: rgba(187, 14, 11, 1);
-    text-transform: uppercase;
-    display: block;
-    padding-top: 5px;
-
-}
-
+/*---------------MEDIA QUERIES---------------*/
 
 @media (max-width: 576px) {
     .menu {
         display: none;
     }
 }
-
 
 @media (max-width: 576px) {
     .footer-copyright {
@@ -218,8 +94,6 @@ header {
         margin-bottom: 50px;
     }
 }
-
-
 
 @media (max-width: 767px) {
     .booking-button {
@@ -250,9 +124,127 @@ header {
 }
 
 
+/*-----------------HEADER---------------*/
+
+header {
+    background: #000;
+}
+
+.TDE {
+    background-image: url("../images/TDE.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+}
+
+.menuItem {
+    list-style: none;
+    text-align: center;
+    margin-top: relative;
+    height: 70px;
+    width: 100%;
+    background-color: #000;
+    box-shadow: 0px 0px 10px 2px rgba(200, 24, 16, 1);
+}
+
+.menuItem a {
+    font-family: 'Anton', sans-serif;
+    font-weight: 100;
+    padding: 0;
+    color: #fafafa;
+    padding-top: 12px;
+    width: 100%;
+    height: 70px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+}
+
+.menuItem span {
+    font-size: 24px;
+    letter-spacing: 4px;
+    text-shadow: 2px 0 0 rgba(187, 14, 11, 1), -2px 0 0 rgba(187, 14, 11, 1), 0 2px 0 rgba(187, 14, 11, 1), 0 -2px 0 rgba(187, 14, 11, 1), 1px 1px rgba(187, 14, 11, 1), -1px -1px 0 rgba(187, 14, 11, 1), 1px -1px 0 rgba(187, 14, 11, 1), -1px 1px 0 rgba(187, 14, 11, 1);
+}
+
+.menuItem a:hover {
+    color: #000;
+}
+
+.active-menuItem a {
+    color: #000;
+    background-color: rgba(187, 14, 11, 1);
+    text-shadow: 2px 0 0 #fafafa, -2px 0 0 #fafafa, 0 2px 0 #fafafa, 0 -2px 0 #fafafa, 1px 1px #fafafa, -1px -1px 0 #fafafa, 1px -1px 0 #fafafa, -1px 1px 0 #fafafa;
+
+}
+
+.active-menuItem span {
+    text-shadow: 2px 0 0 #fafafa, -2px 0 0 #fafafa, 0 2px 0 #fafafa, 0 -2px 0 #fafafa, 1px 1px #fafafa, -1px -1px 0 #fafafa, 1px -1px 0 #fafafa, -1px 1px 0 #fafafa;
+}
+
+.hvr-sweep-to-bottom:before {
+    background-color: rgba(187, 14, 11, 1);
+    height: 70px;
+    padding: 0;
+}
+
+.tour-link {
+    background-color: rgba(187, 14, 11, 1);
+    border: 2px solid #fafafa;
+    color: #fafafa;
+}
+
+.tour-link:hover {
+    background-color: #fafafa;
+    color: #000;
+    border: 2px solid rgba(187, 14, 11, 1);
+    transition: all .5s ease-in-out;
+}
+
+.booking-link {
+    background-color: rgba(187, 14, 11, 1);
+    border: 2px solid #fafafa;
+    color: #fafafa;
+}
+
+.booking-link:hover {
+    background-color: #fafafa;
+    color: #000;
+    border: 2px solid rgba(187, 14, 11, 1);
+    transition: all .5s ease-in-out;
+}
+
+
+/*-----------------MOBILE---------------*/
+
+.mobile-menu {
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.mobile-menu-item {
+    font-family: 'Anton', sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 4px;
+    color: #fafafa;
+    background-color: rgba(187, 14, 11, 1);
+    text-transform: uppercase;
+    display: block;
+    padding-top: 5px;
+}
+
 
 
 /*-----------------SECTION---------------*/
+
+section {
+    background-color: #000;
+}
+
 
 /*-----HOME*/
 
@@ -261,7 +253,6 @@ video {
     box-shadow: 0px 0px 28px 2px rgba(200, 24, 16, 1);
     padding: 0;
     margin: 0;
-
 }
 
 .section-column {
@@ -270,7 +261,6 @@ video {
     display: table-cell;
     box-shadow: 0px 0px 28px 2px rgba(200, 24, 16, 1);
     background-color: black;
-
 }
 
 .section-heading {
@@ -279,17 +269,16 @@ video {
     color: #fafafa;
 }
 
-
 .description {
     font-size: 20px;
     color: #fafafa;
 }
 
-/*-----DISCOGRAPHY*/
+/*-----ALBUMS*/
 
 .artist {
     color: #fafafa;
-    margin-top:20px;
+    margin-top: 20px;
 }
 
 .artist-description {
@@ -301,10 +290,9 @@ video {
     text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
 
-.carousel  {
-margin-top: 40px;
-} 
-
+.carousel {
+    margin-top: 40px;
+}
 
 .carousel-indicators li {
     border: solid 0.02px #000;
@@ -312,23 +300,16 @@ margin-top: 40px;
 
 /*-----MUSIC*/
 
-section {
-    background-color: #000;
-
-    
-
-}
-
 .table {
     text-align: center;
     background-color: #000;
     color: #fafafa;
     font-family: 'Oswald', sans-serif;
     box-shadow: 0px 0px 28px 2px rgba(200, 24, 16, 1);
-    
+
 }
 
-.table  td {
+.table td {
     vertical-align: middle;
 }
 
@@ -337,7 +318,7 @@ section {
 }
 
 .purchase-button {
-    background-color:rgba(187, 14, 11, 1); 
+    background-color: rgba(187, 14, 11, 1);
     border: 2px solid #fafafa;
     color: #fafafa;
 }
@@ -371,7 +352,6 @@ img {
     border: 2px solid rgba(187, 14, 11, 1);
 }
 
-
 .tour-column {
     background-color: #000;
     color: #fafafa;
@@ -381,7 +361,7 @@ img {
 
 .tour-column a {
     font-family: 'Oswald', sans-serif;
-    
+
 }
 
 .tour-heading {
@@ -395,7 +375,7 @@ img {
 }
 
 .tour-button {
-    background-color:rgba(187, 14, 11, 1); 
+    background-color: rgba(187, 14, 11, 1);
     border: 2px solid #fafafa;
     color: #fafafa;
 }
@@ -409,9 +389,9 @@ img {
 
 .booking-column {
     background-color: #000;
-    color:#fafafa;
+    color: #fafafa;
     box-shadow: 0px 0px 28px 2px rgba(200, 24, 16, 1);
-    
+
 }
 
 .booking-heading {
@@ -420,10 +400,10 @@ img {
 }
 
 .booking-button {
-    background-color:rgba(187, 14, 11, 1); 
+    background-color: rgba(187, 14, 11, 1);
     border: 2px solid #fafafa;
     color: #fafafa;
-    
+
 }
 
 .booking-button:hover {
