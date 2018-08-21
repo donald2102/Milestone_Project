@@ -17,12 +17,19 @@ my ideas to the project in a way which would adhere to the ethos of effective UX
 Features:
 
 Existing Features -
+
 •	A home page where the user can receive some introductory knowledge about the group and what they are about. A video is also available on the home page for the user to view
-•	A Discography page going through all studio albums released by individual members of the groups, as well as providing a photo of each artist as well as their name on the first slide of each carousel to allow new fans to be familiar with who is who
+
+•	A Discography page going through all studio albums released by individual members of the groups, as well as providing a photo of each artist as well as their name on the first slide of each carousel to allow new fans to be familiar with who is who.
+
 •	A Music page where the user can view different songs by the group as well learning the release year of the songs, and allowing them the opportunity to purchase these songs through the external links provided via the ‘purchase’ button.
+
 •	A Photos page acting as a gallery for the user to view pictures, in which, they can click on each individual photo for them to be able to see them enlarged. 
+
 •	A booking page for users to fill out a form in order for them to book Black Hippy for an event of their choosing on a specific day. The page also allows them to book tickets for their “Championship tour”.
-Features I wanted to Implement
+
+Features I wanted to Implement -
+
 •	Another feature idea I had and wanted to implement was a ‘Biography’ page going into detail about each member of Black Hippy and their backgrounds, however this idea was scrapped due to it being redundant with the discography page linking the user to the members Wikipedia so that they themselves can read the biography of a member of the group.
 
 
@@ -58,9 +65,14 @@ With regards to deploying my project to a hosting platform, I did this through G
 Credits:
 
 Content
+
 •	The code used for my menu items was taking from the resume project. 
 Media
+
 •	The photos used in this site were obtained from google images and the artists Wikipedia pages
+
 •	The music and videos were obtained from YouTube using YouTube mp3 and mp4 conversion
+
 Acknowledgements
+
 •	I received inspiration for this project from the TDE website, Wu-Tang-Clan and similar hip hop group pages.
