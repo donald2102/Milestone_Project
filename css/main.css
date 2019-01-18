@@ -279,6 +279,7 @@ video {
 .artist {
     color: #fafafa;
     margin-top: 20px;
+    box-shadow: 0px 0px 10px 2px rgba(200, 24, 16, 1);
 }
 
 .artist-description {

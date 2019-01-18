@@ -1,5 +1,7 @@
 Black Hippy Website
+
 This website is one which allows users to learn information about Black Hippy with relation to their discography, music and history in addition to allowing them to book and get a chance to interact with them via a booking page. It appeals to current fans in that it allows them to view media relating to the group permitting them to listen to their favourite songs and save pictures to use for backgrounds. It also appeals to new fans in that it highlights the best qualities of the group, gives them information with relation to the group in addition to giving them a chance to hear the groups music for the first time.
+
 UX
 Although the brief suggested using ‘The Monkees’ as the band for the website, I decided to use the hip-hop rap collective ‘Black Hippy’, due to the fact that I am more familiar with the members, discography and overall style of the group. I felt this decision was beneficial in that it saved me time in doing research on the group to see which colours and styling would be the most suitable for the website in that I already had a very good idea on what was appropriate with regards to what I was trying to convey on each page. 
 I wanted my website to serve the purpose of catering to the needs of fans of the group already who wanted to see photos and listen to audio of their favourite group as well as allowing them to book them for an event or special occasion. I also made it for those who were not particularly familiar with the group and wanted to learn more about them. Again, the user had the options to see what the artists looked like via the photos in addition to listening to some of their music on the page to get a better understanding of the musical talents of Black Hippy. In both instances, the needs of the user were at the forefront of my design process and wanted to create a website which would cater to both old and new fans by allowing them to learn more about the group, view their discography, allow them to view photos of the members, listen to their music, and consequently book them for an event.
@@ -12,6 +14,7 @@ Existing Features
 •	A Music page where the user can view different songs by the group as well learning the release year of the songs, and allowing them the opportunity to purchase these songs through the external links provided via the ‘purchase’ button.
 •	A Photos page acting as a gallery for the user to view pictures, in which, they can click on each individual photo for them to be able to see them enlarged. 
 •	A booking page for users to fill out a form in order for them to book Black Hippy for an event of their choosing on a specific day. The page also allows them to book tickets for their “Championship tour”.
+
 Features I wanted to Implement
 •	Another feature idea I had and wanted to implement was a ‘Biography’ page going into detail about each member of Black Hippy and their backgrounds, however this idea was scrapped due to it being redundant with the discography page linking the user to the members Wikipedia so that they themselves can read the biography of a member of the group.
 
@@ -30,6 +33,7 @@ I also used to Font Awesome for the icons on my site. Icons of social media, (i.
 •	Google Fonts
 
 I also used Google fonts in this project for aesthetically dynamic text and to provide me with a font which I believe was best suited with relation to the style of the group.
+
 Testing
 Throughout the process of developing my website, I ensured that the project worked well and that there were no bugs through extensive testing. My first stages of testing involved me ensuring that all of the links that I had included in my project worked. I made sure I clicked on each link as I included them to ensure that a new tab with the right page would open every time.
 I tested out the form on my ‘Bookings’ page by entering both invalid and valid details to the input boxes to ensure that the appropriate messages came on each time. For example, when entering my email address in a different format (not including an ‘@’) a message would appear telling me I have entered incorrect details. This message would also appear when I did not fill in a box and attempted to submit in the form.
@@ -39,6 +43,7 @@ Deployment
 With regards to deploying my project to a hosting platform, I did this through GitHub. GitHub allowed me to ensure version control and that I could keep up to date with all the changes I made throughout the development process of my site.
 
 Credits
+
 Content
 •	The code used for my menu items was taking from the resume project. 
 Media
